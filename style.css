@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.input-container{
+    width: 100%;
+    flex: 1;
+}
+
+.kotak-container{
+    width: 100%;
+    flex: 1;
+}
+
+.container-label{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 10px 40px;
+    position: relative;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 50px !important;
+}
+
+.merah{
+    background-color: red;
+}
+
+.hijau{
+    background-color: green;
+}
+
+.biru{
+    background-color: blue;
+}
+
+.kotak-hasil{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
